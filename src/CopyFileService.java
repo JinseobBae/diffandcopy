@@ -89,25 +89,25 @@ public class CopyFileService {
         if(newFileList.size() > 0){
             println(Color.GREEN.getValue() +  "* NEW       : " + newFileList.size() + " files" + Color.RESET.getValue()   );
         }else{
-            println("* NEW       : " + newFileList.size() + " files"    );
+            println("* NEW       : " + 0 + " files"    );
         }
 
         if(modFileList.size() > 0){
             println(Color.GREEN.getValue() + "* MODIFIED  : " + modFileList.size() + " files" + Color.RESET.getValue()    );
         }else{
-            println("* MODIFIED  : " + modFileList.size() + " files"    );
+            println("* MODIFIED  : " + 0 + " files"    );
         }
 
         if(delFileList.size() > 0){
             println(Color.GREEN.getValue() + "* DELETED   : " + delFileList.size() + " files" + Color.RESET.getValue()    );
         }else{
-            println("* DELETED   : " + delFileList.size() + " files"    );
+            println("* DELETED   : " + 0 + " files"    );
         }
 
         if(errorList.size() > 0){
             println(Color.RED.getValue() + "* ERROR     : " + errorList.size() + " errors" + Color.RESET.getValue());
         }else{
-            println("* ERROR     : " + errorList.size() + " errors"     );
+            println("* ERROR     : " + 0 + " errors"     );
         }
 
 
